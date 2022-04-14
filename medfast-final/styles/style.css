@@ -1,0 +1,227 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    background-color: rgb(232, 255, 232);
+}
+h1{
+    font-family:'Roboto',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #125707;
+    margin-bottom: 10%;
+}
+
+h2{
+    font-family:'Roboto',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color: #00943B;
+}
+
+hr{
+    clear: both;
+    border-style: none;
+    border-top: 2px #c5f1d7 solid; 
+
+}
+
+p{
+    font-family:'Roboto',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    padding-top: 1.5%;
+    color: #136132;
+}
+
+.main_wrapper{
+    width: 1000px;
+    height:auto;
+    margin: auto;
+}
+
+.header_wrapper{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#logo {
+    height: 250px;
+    width: 300px;
+    float: center;
+
+   
+  
+}
+
+.menubar{
+    width: 1000px;
+    height: 50px;
+    background: rgba(16, 88, 6, 0.856);
+    color: aliceblue;
+    
+
+}
+
+
+
+#menu {
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+
+}
+
+
+#menu li{
+    list-style: none;
+    display: inline;
+}
+
+
+#menu a{
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#menu a:hover{
+    color: rgb(221, 39, 39);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.content_wrapper{
+    width: 1000px;
+    
+    margin: auto;
+    background: rgb(5, 99, 55);
+
+}
+
+#content_area{
+    width: 1000px;
+    height: 1000px ;
+    
+/* float: right; */
+background-color: #74D29A;
+
+}
+
+
+
+#sidebar{
+    width: 200px;
+    height: 800px;
+    float: left;
+    background: rgb(20, 94, 17);
+
+}
+
+#sidebar_title{
+    background-color: rgb(57, 212, 135);
+    color: blue;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+#medicine{
+    text-align: center;
+}
+#medicine li{
+    list-style: none;
+   margin: 5px;
+
+}
+
+#medicine a{
+    color: brown;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+#medicine a:hover{
+    color: blueviolet ;
+    font-weight: bolder ;
+    text-decoration: dotted;
+}
+#footer{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    background: lightgrey;
+    clear: both;
+    margin: 0;
+    display: block;
+  
+    padding: 0;
+
+  
+    background-color:#8fb82091;
+}
+
+
+
+#products_box{
+    width: 780px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+
+#single_product{
+    float: left;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+
+#shopping_cart{
+    width: 1000px;
+    height: 50px;
+    background: black;
+    color: white;
+
+}
+#footer p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: xx-large;
+    color: #573131;
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+    
+}
+
+
